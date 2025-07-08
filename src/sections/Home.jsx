@@ -1,6 +1,6 @@
-import profileImg from "../assets/profileImg.png";
+import profileImg from "../assets/profileImg.png.png";
 import { FiDownload } from "react-icons/fi";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/resume.pdf.pdf";
 
 function Home() {
   return (
@@ -17,12 +17,10 @@ function Home() {
       </div>
       <div className="text-center font-mono z-10 px-4">
         <h1 className="text-4xl md:text-5xl lg:text-6xl lg:max-w[500px] font-semibold mb-6 px-1 bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600 bg-clip-text text-transparent leading-right ">
-          I am Ishaq Zinelabidine
+          I am Muhammad Ahsan
         </h1>
         <p className="text-gray-300 text-lg mb-8 max-w-lg mx-auto">
-          I am a frontend developer who loves creation interactive, scalable web
-          applications. My purpose is to build solutions that offer dynamic UI,
-          high performance and delightful UX.
+          I’m a passionate frontend development student currently learning how to build interactive, responsive, and user-friendly web applications. My goal is to grow into a skilled developer who creates high-performance websites with smooth user experiences.
         </p>
         <div className="flex justify-center items-center space-x-4">
           <a

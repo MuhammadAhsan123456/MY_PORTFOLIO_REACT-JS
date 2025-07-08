@@ -15,14 +15,14 @@ function Footer() {
             <FaXTwitter />
           </a>
           <a
-            href="https://twitter.com/yourprofile"
+            href="https://www.linkedin.com/feed/"
             className="border p-2 text-2xl rounded hover:-translate-y-2 transition-all bg-blue-700 text-white "
             target="_blank"
           >
             <SlSocialLinkedin />
           </a>
           <a
-            href="https://twitter.com/yourprofile"
+            href="https://github.com/"
             className="border p-2 text-2xl rounded hover:-translate-y-2 transition-all bg-gray-800 text-white "
             target="_blank"
           >

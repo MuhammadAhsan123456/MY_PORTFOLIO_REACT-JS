@@ -1,4 +1,21 @@
+/* eslint-disable react/prop-types */
 import { RxCross2 } from "react-icons/rx";
+
+
+/*************  ✨ Windsurf Command ⭐  *************/
+/**
+ * MobileMenu component renders a full-screen overlay menu that slides into view
+ * when isMenuOpen is true. It contains navigation links to different sections
+ * of the page and a button to close the menu. The menu's visibility and
+ * interactivity are controlled by the isMenuOpen state. The setIsMenuOpen
+ * function is used to update the menu's open/closed state.
+ *
+ * @param {boolean} isMenuOpen - Determines if the menu is open or closed.
+ * @param {function} setIsMenuOpen - Function to update the isMenuOpen state.
+ */
+
+/*******  2b532dd2-38b0-4495-8f47-0c632006fa60  *******/
+
 
 function MobileMenu({ isMenuOpen, setIsMenuOpen }) {
   return (

@@ -51,7 +51,7 @@ function Projects() {
               >
                 <h3 className="font-semibold text-xl mb-4">{project.name}</h3>
                 <p className="text-gray-300 mb-4">{project.brief} </p>
-                <div className="flex flex-wrap sm:items-center gap-2 mb-4">
+                <div className="flex cursor-pointer flex-wrap sm:items-center gap-2 mb-4">
                   {["React", "Supabase", "Vercel"].map((tech, index) => (
                     <span
                       key={index}
@@ -63,7 +63,7 @@ function Projects() {
                   <div className="flex flex-col text-center my-5 py-3 justify-center gap-3 border-2 border-white/10 hover:border-blue-500/30 hover:shadow-[9_2px_8px_rgba(59,130,22.46,0.2)]  cursor-pointer rounded-xl ">
                     <p className="text-gray-200">View Project</p>
                     <a
-                      href="https://github.com/ISHAQ98"
+                      href="https://github.com"
                       className="flex justify-between items-center font-bold text-blue-400 transition-colors hover:text-white"
                     >
                       {" "}

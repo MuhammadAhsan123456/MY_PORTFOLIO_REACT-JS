@@ -3,14 +3,14 @@ function About() {
   const skills = [
     "Html",
     "Css",
+    "Bootstrap",
     "Javascript",
     "TypeScript ",
-    "React",
+    "Firebase",
+    "React Js",
+    "Next Js",
     "TailwindCSS",
-    "Node Js",
-    "AWS",
-    "MongoDB",
-    "GraphQL",
+
   ];
   return (
     <section
@@ -24,8 +24,7 @@ function About() {
           </h2>
           <div className="p-8 mb-6 rounded-xl border-white/10 border-2 hover:-translate-y-1 transition-all ">
             <p className="text-gray-300 mb-5 text-xl">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              Frontend development enthusiast, currently exploring React and modern web technologies to build responsive and interactive websites.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -50,38 +49,39 @@ function About() {
               <ul className="pl-5 list-disc list-inside text-lg text-gray-300">
                 <li>
                   <strong>
-                    {" "}
-                    <em>B.S. in Computer Science </em>{" "}
+                    <em>Matriculation (Science)</em>
                   </strong>
-                  X University (2017-2022)
+                  – Kamran Grammar School (Year of 2023)
                 </li>
                 <li>
-                  CS50, Data Structure, Web Development, Cloud Computing..
+                  <strong>
+                    <em>Intermediate (Commerce)</em>
+                  </strong>
+                  – Shipowner College (Year of 2025)
                 </li>
+                <li>
+                  Currently enrolled in Web and App Development course at Saylani Mass IT Training Program (SMIT).
+                </li>
+
               </ul>
             </div>
           </div>
           <div className="p-6 hover:-translate-y-1 transition-all">
             <h3 className="text-2xl text-center font-bold mb-8">
-              💻 Work Experience
+              💻 Learning & Practice
             </h3>
             <ul className="pl-5 list-disc list-inside text-lg text-gray-300">
               <li>
                 <strong className="text-blue-400">
-                  <em>Frontend Developer (Freelance / Contract)</em>
+                  <em>Web Development Student – SMIT (Saylani Mass IT Training)</em>
                 </strong>
-                📍
-                <br />* Remote | Jan 2024 - Present <br />
-                - Built responsive and accessible websites using React.js,
-                Next.js, and Tailwind CSS <br />- Developed dynamic user
-                interfaces with JavaScript (ES6+), HTML, and CSS. <br />-
-                Integrated RESTful APIs and optimized performance for faster
-                load times.
-              </li>
-              <li>
-                CS50 , Data Structures, Web Development, Cloud Computing...
+                📍 Karachi | Jan 2024 – Present <br />
+                - Learning HTML, CSS, JavaScript, Typescript, React Js, and TailwindCSS through hands-on projects. <br />
+                - Built mini-projects to practice responsive design and dynamic UI development. <br />
+                - Gaining practical understanding of REST APIs and modern frontend workflows.
               </li>
             </ul>
+
           </div>
         </div>
       </RevealOnScroll>
